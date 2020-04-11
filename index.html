@@ -37,7 +37,7 @@
         <input type="password" v-model="password" required class="new-todo" placeholder="Password">
         <div class="control">
           <input type="submit" value="登入" class="new-todo" id="login-button">
-          <input type="button" @click="Signup" value="注册" class="new-todo">
+          <input type="button" @click="signup" value="注册" class="new-todo">
         </div>
       </form>
       <template v-if="user" v-cloak>
