@@ -3,7 +3,7 @@
 <html data-framework="vue">
   <head>
     <meta charset="utf-8">
-    <title>LeanTodo • Vue.js</title>
+    <title>LynnGuo666 Todo</title>
     <link rel="stylesheet" href="https://unpkg.com/todomvc-app-css/index.css">
     <style>
       [v-cloak] { display: none; }
@@ -45,7 +45,7 @@
           <input class="new-todo"
             v-if="user"
             autofocus autocomplete="off"
-            placeholder="What needs to be done?"
+            placeholder="需要完成什么？"
             v-model="newTodo"
             @keyup.enter="addTodo">
         </header>
@@ -84,7 +84,7 @@
           </button>
         </footer>
         <p class="info userinfo">
-          Logged in as {{user.username}} (<a @click='logout'>Logout</a>)
+          以 {{user.username}}登入 (<a @click='logout'>登出</a>)
         </p>
       </template>
     </section>
